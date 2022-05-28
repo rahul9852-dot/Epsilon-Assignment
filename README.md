@@ -1,2 +1,4 @@
 # Epsilon-Assignment
-Epsilon assignment
+
+Implementation of responsive Card component using HTML and CSS.
+
