@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&family=Source+Sans+Pro:wght@600&display=swap');
+img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #FFFF;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.card{
+    background-color: white;
+    /* padding:1px ; */
+    border-radius: 1px;
+    border: 1px solid #BACDD8;
+}
+
+.tag{
+    padding-top: 20px;
+    padding-right: 0px;
+    /* padding-bottom: 18px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0f5ef0;
+}
+
+.name{
+    padding-top: 18px;
+    padding-right: 0px;
+    padding-left: 16px;
+    /* padding-bottom: 20px; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #7A8594;
+}
+.modified{
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #7A8594;
+}
+.card:hover {
+  /* box-shadow: 0 8px 16px 0 #000000; */
+  opacity: 60%;
+  filter: drop-shadow(0px 3px 18px #000000);
+}
+/* .card_details{
+    padding: 16px 8px 8px 8px;
+} */
